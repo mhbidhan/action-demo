@@ -1,4 +1,5 @@
 const { oddOrEven } = require("./index");
+const { describe, it, expect } = require("jest");
 
 describe("oddOrEven", () => {
   it("should be even", () => {
