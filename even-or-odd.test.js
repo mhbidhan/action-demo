@@ -1,4 +1,5 @@
 const { oddOrEven } = require("./index");
+const { describe, expect, it } = require("@jest/globals");
 
 describe("oddOrEven", () => {
   it("should be even", () => {
